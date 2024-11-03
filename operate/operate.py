@@ -64,7 +64,7 @@ def main(model, terminal_prompt, voice_mode=False, verbose_mode=False):
     # Skip message dialog if prompt was given directly
     if not terminal_prompt:
         message_dialog(
-            title="Self-Operating Computer",
+            title="AI-Troubleshoot",
             text="An experimental framework to enable multimodal models to operate computers",
             style=style,
         ).run()
